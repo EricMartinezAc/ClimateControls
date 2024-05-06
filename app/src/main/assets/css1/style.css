@@ -1,0 +1,131 @@
+@CHARSET "ISO-8859-1";
+body{
+	padding-right: 7px;
+	padding-left: 7px;
+}
+.title-pag{
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	background-color: white;
+	border-radius: 0px 5px 5px 0px;
+	width: 100%;
+	height: 49px;
+	z-index: 1;
+}
+#logoclimate{
+	position: absolute;
+	top: 7px;
+	left: 30px;
+	z-index: 5;
+}
+#climafresh{
+	position: absolute;
+	top: 5px;
+	left: 80px;
+	z-index: 3;
+}
+#lglogo{
+	position: absolute;
+	top: 7px;
+	left: 230px;
+	z-index: 4;
+}
+.title-pag1{
+	position: relative;
+	background-color: white;
+	font-family: unset;
+	opacity: 0.8;
+	border-radius: 0px 0px 20px 0px;
+	width: 95%;
+	z-index: 5;
+	height: 80px;
+	position: absolute;
+	top: 60px;
+}
+
+.title-pag1 h3{
+	position: absolute;
+	padding: 3px;
+	top: 5px;
+	left: 55px;
+	color: #0fa0bb;
+	z-index: 1;
+}
+.title-pag1 h4{
+	position: absolute;
+	padding: 3px;
+	top: 10px;
+	left: 55px;
+	color: #0ff0bb;
+	font: bold;
+	z-index: 1;
+}
+.title-pag1 h5{
+	position: absolute;
+	padding: 3px;
+	top: 30px;
+	left: 59px;
+	color: #0f0fbb;
+	z-index: 1;
+}
+
+.menu{
+	position: relative;
+	top: 100px;
+width:100%;
+height:100%;
+display:inline-block;
+text-align:center;
+border-radius: 50px 20px 20px 50px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.btn {
+  color: white;
+  background-color:#567890;
+  width: 90%;
+  height: 25px;
+  font-size: 14px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0.7;
+}
+.btn:hover{
+	background-color: white;
+	color: orange;
+}
+.goodBy{
+  color: white;
+  background-color:#567890;
+  width: 90%;
+  height: 25px;
+  font-size: 14px;
+  border-radius: 4px 4px 4px 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  opacity: 0.7;
+
+}
+.goodBy:hover{
+	background-color: red;
+}
+.parrafo{
+	position: relative;
+	top: 80px;
+width:100%;
+text-align:center;
+background-color: #333333;
+opacity: 0.8;
+border-radius: 10px 10px 10px 10px;
+}
+.parrafo p{
+color: white;
+padding-right: 3%;
+padding-left: 3%;
+padding-top: 1%;
+padding-bottom: 1%;
+font-size: 19px;
+font-style: oblique;
+font: fantasy;
+}
+

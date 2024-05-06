@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "38115619278",
+    "firebase_url": "https://climatecontrols-cad5f.firebaseio.com",
+    "project_id": "climatecontrols-cad5f",
+    "storage_bucket": "climatecontrols-cad5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38115619278:android:35974506e92344f0",
+        "android_client_info": {
+          "package_name": "com.gestion.admin.climatecontrols"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38115619278-rvcqe4q16e4k0r8bjsb3f55pnvjn7rn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7iT6CNbUoR1SvXZKnfzwhCmVvvvCaJm4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,177 @@
+@CHARSET "ISO-8859-1";
+
+
+* {
+	margin: 0px;
+	padding: 0px; 
+	outline: 0;
+}
+
+#menu {
+	text-align: center;
+	font-size: 1em;
+	width: 800px;
+	margin: 20px auto;
+	position: absolute;
+	top:52px;
+	left:550px;
+	z-index:5;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li {
+	width: 162px;
+}
+
+#menu ul li a {
+	font-size:11pt;
+	display: block;
+	text-decoration: none;
+	color: #172fa1;
+	padding: 8px;
+	position: relative;
+	
+}
+
+#menu ul li ul li a {
+	border-radius: 3px;
+	background-color: white;
+	width: 160px;
+	padding: 8px 0px;
+	border-top-color: transparent;
+}
+
+#menu ul li ul {
+	display: none;
+}
+#menu ul li ul li ul li a.primera {
+	border-top-color: #fff;
+}
+
+#menu ul li.nivel1 { 
+	float: left;
+	margin-right: 1px;
+}
+
+#menu ul li a.nivel2 {
+	color: #000;
+}
+
+#menu ul li a.nivel1, #menu ul li a.nivel2 {
+	display: block;
+	position: relative;
+}
+
+#menu ul li:hover {
+	position: relative;
+}
+
+#menu ul li a:hover, #menu ul li:hover a.nivel1 {
+	color: orange;
+	position: relative;
+}
+
+#menu ul li:hover  ul.nivel2, #menu ul li a:hover  ul.nivel2{
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+
+#menu ul li ul li a:hover ul.nivel3, #menu ul li ul li:hover ul.nivel3 {
+	display: block;
+	position: absolute;
+	left: 161px;
+	top:0px;
+}
+
+#menu ul li ul li a:hover {
+	border-top-color: #000;
+	position: relative;
+}
+
+
+.login_form{
+	width: 300px;
+	height: 270px;
+	position: absolute;
+	top: 190px;
+	left: 130px;
+	text-align: center;
+	background-color: orange;
+	opacity: 0.8;
+}
+.precent{
+	width: 750px;
+	height: 250px;
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	position: absolute;
+	top: 200px;
+	right: 100px;
+}
+
+#vinc{
+	width: 170px;
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	color: green;
+}
+.pagFood{
+	width: 500px;
+	position: absolute;
+	bottom: 15px;
+	left: 450px;
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	text-align: center;
+	font: bold;
+}
+.precent #parraf{
+	position: absolute;
+	left: 13px;
+}
+.table{
+	position: absolute;
+	bottom: 200px;
+	left: 15px;
+}
+.publicidad{
+	position: absolute;
+	bottom: 100px;
+	right: 15px;
+}
+.formcontrol{
+	font-size: 18px;
+}
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 3px;
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #727b84;
+  border-color: #6c757d;
+  width: 100px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.btn-secondary:hover{
+	color: orange;
+	background-color: white;
+	border-radius: 8px;
+}
+.title-sesion{
+	font-family: serif;
+}
